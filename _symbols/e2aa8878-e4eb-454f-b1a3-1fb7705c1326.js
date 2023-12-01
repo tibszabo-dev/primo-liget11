@@ -1565,7 +1565,7 @@ function create_fragment(ctx) {
 
 			t4 = space();
 			button = element("button");
-			t5 = text("Submit");
+			t5 = text("Küldés");
 			this.h();
 		},
 		l(nodes) {
@@ -1602,7 +1602,7 @@ function create_fragment(ctx) {
 			t4 = claim_space(form_nodes);
 			button = claim_element(form_nodes, "BUTTON", { class: true, type: true });
 			var button_nodes = children(button);
-			t5 = claim_text(button_nodes, "Submit");
+			t5 = claim_text(button_nodes, "Küldés");
 			button_nodes.forEach(detach);
 			form_nodes.forEach(detach);
 			section_nodes.forEach(detach);
