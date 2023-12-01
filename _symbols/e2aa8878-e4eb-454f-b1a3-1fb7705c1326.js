@@ -1569,7 +1569,7 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		l(nodes) {
-			section = claim_element(nodes, "SECTION", { class: true });
+			section = claim_element(nodes, "SECTION", { class: true, id: true });
 			var section_nodes = children(section);
 			div2 = claim_element(section_nodes, "DIV", { class: true });
 			var div2_nodes = children(div2);
@@ -1617,6 +1617,7 @@ function create_fragment(ctx) {
 			attr(button, "type", "submit");
 			attr(form, "class", "svelte-1twigpw");
 			attr(section, "class", "section-container svelte-1twigpw");
+			attr(section, "id", "kapcsolat");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
