@@ -1272,7 +1272,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (89:6) {#each social as { label, link }}
+// (96:6) {#each social as { label, link }}
 function create_each_block_1(ctx) {
 	let div;
 	let span;
@@ -1313,10 +1313,10 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "label svelte-1twigpw");
+			attr(span, "class", "label svelte-12nqaj0");
 			attr(a, "href", a_href_value = /*link*/ ctx[9].url);
-			attr(a, "class", "svelte-1twigpw");
-			attr(div, "class", "item svelte-1twigpw");
+			attr(a, "class", "svelte-12nqaj0");
+			attr(div, "class", "item svelte-12nqaj0");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -1341,7 +1341,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (106:6) {:else}
+// (113:6) {:else}
 function create_else_block(ctx) {
 	let label;
 	let span;
@@ -1380,11 +1380,11 @@ function create_else_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "svelte-1twigpw");
+			attr(span, "class", "svelte-12nqaj0");
 			attr(input, "type", input_type_value = /*input*/ ctx[5].type || "text");
 			attr(input, "placeholder", input_placeholder_value = /*input*/ ctx[5].placeholder);
-			attr(input, "class", "svelte-1twigpw");
-			attr(label, "class", "svelte-1twigpw");
+			attr(input, "class", "svelte-12nqaj0");
+			attr(label, "class", "svelte-12nqaj0");
 		},
 		m(target, anchor) {
 			insert_hydration(target, label, anchor);
@@ -1410,7 +1410,7 @@ function create_else_block(ctx) {
 	};
 }
 
-// (101:6) {#if input.type === "textarea"}
+// (108:6) {#if input.type === "textarea"}
 function create_if_block(ctx) {
 	let label;
 	let span;
@@ -1443,10 +1443,10 @@ function create_if_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(span, "class", "svelte-1twigpw");
+			attr(span, "class", "svelte-12nqaj0");
 			attr(textarea, "placeholder", textarea_placeholder_value = /*input*/ ctx[5].placeholder);
-			attr(textarea, "class", "svelte-1twigpw");
-			attr(label, "class", "svelte-1twigpw");
+			attr(textarea, "class", "svelte-12nqaj0");
+			attr(label, "class", "svelte-12nqaj0");
 		},
 		m(target, anchor) {
 			insert_hydration(target, label, anchor);
@@ -1468,7 +1468,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (100:4) {#each inputs as input, i}
+// (107:4) {#each inputs as input, i}
 function create_each_block(ctx) {
 	let if_block_anchor;
 
@@ -1611,12 +1611,12 @@ function create_fragment(ctx) {
 		h() {
 			attr(h2, "class", "heading");
 			attr(div0, "class", "description");
-			attr(div1, "class", "social-links svelte-1twigpw");
-			attr(div2, "class", "body svelte-1twigpw");
-			attr(button, "class", "button svelte-1twigpw");
+			attr(div1, "class", "social-links svelte-12nqaj0");
+			attr(div2, "class", "body svelte-12nqaj0");
+			attr(button, "class", "button svelte-12nqaj0");
 			attr(button, "type", "submit");
-			attr(form, "class", "svelte-1twigpw");
-			attr(section, "class", "section-container svelte-1twigpw");
+			attr(form, "class", "svelte-12nqaj0");
+			attr(section, "class", "section-container svelte-12nqaj0");
 			attr(section, "id", "kapcsolat");
 		},
 		m(target, anchor) {
